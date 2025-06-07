@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
         actions: <Widget>[
           InkWell(
             onTap: null,
-            child: new IconButton(
+            child: IconButton(
               icon: Icon(
                 Icons.search,
                 color: Colors.white,
@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
           ),
           InkWell(
             onTap: null,
-            child: new IconButton(
+            child: IconButton(
               icon: Icon(
                 Icons.settings,
                 color: Colors.white,
